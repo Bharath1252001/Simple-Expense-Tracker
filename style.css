@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.expense-list {
+    margin-top: 30px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.expense-actions button {
+    margin-right: 5px;
+}
